@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    color: #007bff;
+}
+
+nav a {
+    margin: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+#map {
+    border: 2px solid #007bff;
+}

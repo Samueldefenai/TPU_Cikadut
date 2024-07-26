@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi - Manajemen TPU Cikadut</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="my-4 text-center">
+            <h1>Reservasi Pemakaman</h1>
+        </header>
+        <section>
+            <form action="reservasi.php" method="POST" class="form-group">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="tanggal">Tanggal Pemakaman:</label>
+                    <input type="date" id="tanggal" name="tanggal" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-success">Reservasi</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
